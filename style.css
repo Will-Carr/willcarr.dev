@@ -29,13 +29,13 @@
   max-width: 200px;
 }
 
-#links a, #links i {
+#links a, #icons i {
   color: #d1d1d1;
   text-decoration: none;
   transition: .5s;
 }
 
-#links a:hover, #links i:hover {
+#links a:hover, #icons i:hover {
   color: white;
 }
 
@@ -43,9 +43,12 @@
   color: white;
 }
 
-#icons {
-  position: absolute;
-  bottom: 1em;
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  width: min-content;
 }
 
 #main {
@@ -54,10 +57,6 @@
   right: 0;
   min-height: 100vh;
   padding: 4rem 2rem;
-}
-
-.jumbotron {
-
 }
 
 @media (max-width: 768px){
@@ -74,7 +73,7 @@
   #main {
     /* Change this when we know the height of main */
     position: relative;
-    min-height: calc(100vh - 20em - 200px);
+    min-height: calc(100vh - 3.5em + 2px);
     padding: 2rem 1rem;
   }
 }
