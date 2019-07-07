@@ -70,6 +70,11 @@
   font-size: 6vw;
 }
 
+.min-link {
+  width: min-content;
+  display: block;
+}
+
 @media screen and (min-width: 450px) {
   #bullseye-title {
     font-size: 3.5rem;
