@@ -53,9 +53,7 @@ img {
 }
 
 #main {
-  position: fixed;
-  top: 0;
-  right: 0;
+  margin-left: 25%;
   min-height: 100vh;
   padding: 4rem 2rem;
 }
@@ -72,8 +70,7 @@ img {
   }
 
   #main {
-    /* Change this when we know the height of main */
-    position: relative;
+    margin-left: 0;
     min-height: calc(100vh - 3.5em + 2px);
     padding: 2rem 1rem;
   }
