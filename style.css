@@ -29,7 +29,7 @@
   max-width: 200px;
 }
 
-#links a, #icons i {
+#links a, #icons i, img {
   color: #d1d1d1;
   text-decoration: none;
   transition: .5s;
