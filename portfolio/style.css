@@ -66,12 +66,16 @@
   font-size: 7vw;
 }
 
+#asterisk-link {
+  font-size: 6vw;
+}
+
 @media screen and (min-width: 450px) {
   #bullseye-title {
     font-size: 3.5rem;
   }
 
-  #bullseye-link {
+  #bullseye-link, #asterisk-link {
     font-size: 2rem;
   }
 }
