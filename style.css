@@ -40,8 +40,20 @@ img {
 #links a:hover,
 #icons i:hover,
 .sidebar-text,
-.active-page {
+.active-page a {
   color: white !important;
+}
+
+.active-page::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #f8f9fa;
+  position: absolute;
+  right: -5px;
+  margin-top: -16px;
+  transform: rotate(45deg);
 }
 
 .navbar-toggler {
