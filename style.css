@@ -29,18 +29,19 @@
   max-width: 200px;
 }
 
-#links a, #icons i, img {
+#links a,
+#icons i,
+img {
   color: #d1d1d1;
   text-decoration: none;
   transition: .5s;
 }
 
-#links a:hover, #icons i:hover {
-  color: white;
-}
-
-.sidebar-text {
-  color: white;
+#links a:hover,
+#icons i:hover,
+.sidebar-text,
+.active-page {
+  color: white !important;
 }
 
 .navbar-toggler {
