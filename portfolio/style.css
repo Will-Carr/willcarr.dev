@@ -4,6 +4,7 @@
 
 .project {
   width: 300px;
+  max-width: 100%;
   margin: 1.5em 1.5em 0 0;
 }
 
@@ -20,6 +21,7 @@
 .project-image {
   height: 150px;
   width: 300px;
+  max-width: 100%;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,6 +77,10 @@
   display: block;
 }
 
+.display-4 {
+  font-size: 15vw;
+}
+
 @media screen and (min-width: 450px) {
   #bullseye-title {
     font-size: 3.5rem;
@@ -83,4 +89,13 @@
   #bullseye-link, #asterisk-link {
     font-size: 2rem;
   }
+
+  .display-4 {
+    font-size: 3.5rem;
+  }
+
+  /* .project-image {
+    height: 150px;
+    width: 300px;
+  } */
 }
