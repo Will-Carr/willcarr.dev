@@ -72,6 +72,10 @@
   font-size: 6vw;
 }
 
+#degaetano-carr-link {
+  font-size: 10vw;
+}
+
 .min-link {
   width: min-content;
   display: block;
@@ -86,7 +90,7 @@
     font-size: 3.5rem;
   }
 
-  #bullseye-link, #asterisk-link {
+  #bullseye-link, #asterisk-link, #degaetano-carr-link {
     font-size: 2rem;
   }
 
