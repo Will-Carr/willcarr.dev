@@ -30,7 +30,7 @@
 }
 
 #links a,
-#icons i,
+.icons i,
 img {
   color: #d1d1d1;
   text-decoration: none;
@@ -42,7 +42,7 @@ img {
 }
 
 #links a:hover,
-#icons i:hover,
+.icons i:hover,
 .sidebar-text,
 .active-page a {
   color: white !important;
@@ -80,7 +80,7 @@ img {
     height: auto;
   }
 
-  #icons {
+  .icons {
     position: relative;
     bottom: initial;
   }
