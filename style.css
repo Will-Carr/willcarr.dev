@@ -74,8 +74,28 @@ img {
 
 #main {
   margin-left: 25%;
+  height: 100vh;
+}
+
+#main > div {
   min-height: 100vh;
   padding: 4rem 2rem;
+}
+
+#home {
+  background-color: #3CB371;
+}
+
+#portfolio {
+  background-color: #3A879B;
+}
+
+#skills {
+  background-color: #0B5C8E;
+}
+
+#contact {
+  background-color: #244387;
 }
 
 @media (max-width: 768px){
@@ -226,3 +246,33 @@ img {
     width: 300px;
   } */
 }
+
+
+
+
+/* slide in from the top */
+@keyframes slideInUp {
+    from    { transform: translateY(-100%); }
+    to      { transform: translateY(0); }
+}
+
+/* slide in from the top */
+@keyframes slideInDown {
+    from    { transform: translateY(0); }
+    to      { transform: translateY(-100%); }
+}
+
+/* slide out from the bottom */
+@keyframes slideOutDown {
+    from    { transform: translateY(0); }
+    to      { transform: translateY(100%); }
+}
+
+/* slide out from the bottom */
+@keyframes slideOutUp {
+    from    { transform: translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+.ng-enter           { animation: slideInUp 1s both ease-in; z-index: 8888; }
+.ng-leave           { animation: slideOutDown 1s both ease-in; z-index: 9999; }

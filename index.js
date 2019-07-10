@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute']);
+var app = angular.module('app', ['ngRoute', 'ngAnimate']);
 
 app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
@@ -57,9 +57,11 @@ app.controller('ctrl', function($scope, $location, $timeout) {
       history.replaceState("", document.title, window.location.pathname + window.location.search);
     })
 
-  } else {
-    console.log(window.location.hash)
   }
+
+
+
+  $scope.pageClass = "page-home";
 
 
 })
