@@ -41,6 +41,10 @@ img {
   transition: .5s;
 }
 
+.icons i {
+  transition: color .5s;
+}
+
 #links a:hover,
 .icons i:hover,
 .sidebar-text,
