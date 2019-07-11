@@ -5,7 +5,15 @@
   height: 100vh;
 }
 
-#sidebar:before {
+#sidebar-background {
+  left: 0;
+}
+
+#main-background {
+  right: 0;
+}
+
+#background {
     content: ' ';
     display: block;
     position: absolute;
@@ -13,9 +21,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
-    opacity: 0.15;
-    background-image: url(./images/skyline.png);
+    opacity: 0.1;
+    background-image: url(/images/skyline.png);
     background-repeat: no-repeat;
     background-position: center;
     -ms-background-size: cover;
@@ -115,6 +122,11 @@ img {
   border: 1px solid #6c757d;
   cursor: pointer;
   box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.275);
+  background-color: #f8f9fa;
+}
+
+.lead {
+  font-weight: 350;
 }
 
 @media (max-width: 768px){
