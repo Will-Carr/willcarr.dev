@@ -12,6 +12,7 @@ $(".link")
 
 $(window).on("load", function(){
   $("#cur-page-carat").css({
-    "top": $(".active-page").offset().top
+    "top": $(".active-page").offset().top,
+    "display": "block"
   });
 })

@@ -84,6 +84,7 @@ svg {
 
 #cur-page-carat {
   content: "";
+  display: none; /* Gets changed to block on page load (index.js) */
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
