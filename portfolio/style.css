@@ -85,6 +85,17 @@
   font-size: 15vw;
 }
 
+.arrow {
+  height: 1em;
+  width: 1em;
+  margin: auto 0;
+}
+
+.arrow-text {
+  max-width: calc(100% - 16px - .25em);
+  margin: auto 0;
+}
+
 @media screen and (min-width: 450px) {
   #bullseye-title {
     font-size: 3.5rem;
