@@ -48,9 +48,9 @@ img {
   transition: .5s;
 }
 
-.icons i {
+/* .icons i {
   transition: color .5s;
-}
+} */
 
 #links a:hover,
 .icons i:hover,
@@ -61,6 +61,26 @@ img {
 
 .link {
   padding: .5em 0;
+}
+
+svg {
+  height: 40px;
+  width: 40px;
+}
+
+.icons svg {
+  fill: #d1d1d1;
+  transition: fill .5s;
+}
+
+.icons svg:hover {
+  fill: white;
+}
+
+.svg-sm {
+  height: 16px;
+  width: 16px;
+  margin-bottom: 4px;
 }
 
 #cur-page-carat {
