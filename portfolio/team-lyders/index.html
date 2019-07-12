@@ -8,12 +8,12 @@
 		<meta name="description" content="">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/portfolio/style.css">
 
 
     <title>Will Carr: Team Lyders</title>
-    <link href="../../images/favicon.png" rel="icon" type="image/jpeg" />
+    <link href="/images/favicon.png" rel="icon" type="image/jpeg" />
   </head>
   <body>
 
@@ -28,7 +28,13 @@
         <div id="sidebar" class="col-3 d-none d-md-flex flex-column justify-content-between">
 
           <div>
-            <img id="headshot" class="d-block rounded-circle w-75 mx-auto mt-4" src="../../images/headshot.png" alt="Headshot" />
+            <picture>
+              <source type="image/webp" srcset="/images/headshot.webp">
+              <source type="image/jp2" srcset="/images/headshot.jp2">
+              <source type="image/jxr" srcset="/images/headshot.jxr">
+              <img id="headshot" class="d-block rounded-circle w-75 mx-auto mt-4" src="/images/headshot.png" alt="Headshot" />
+            </picture>
+
             <h2 class="sidebar-text text-center mt-4">Will Carr</h2>
             <h4 class="sidebar-text text-center">Full-Stack Developer</h4>
 
@@ -112,7 +118,12 @@
             <h2 id="team-lyders-link" class="display-6">teamlyders.com</h2>
           </a>
 
-          <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="../../images/teamlyders.png" alt="Team Lyders Website" />
+          <picture>
+            <source type="image/webp" srcset="/images/teamlyders.webp">
+            <source type="image/jp2" srcset="/images/teamlyders.jp2">
+            <source type="image/jxr" srcset="/images/teamlyders.jxr">
+            <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/teamlyders.png" alt="Team Lyders Website" />
+          </picture>
 
           <p>Team Lyders is the brand of the largest privately owned franchisee of Yum Brands. They currently own approximately 200 Taco Bell and Arby’s restaurants throughout the Midwest and Canada.</p>
           <p>Since the summer of 2019, I have worked to redevelop the web systems for the company. With the ease of use of the new system, the stores can focus on selling food and pleasing customers, and the corporate office can focus on expansion and profit.</p>
@@ -151,7 +162,7 @@
 
 
 
-    <script src="http://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/index.js"></script>

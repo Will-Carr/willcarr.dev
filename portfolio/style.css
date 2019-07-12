@@ -35,23 +35,23 @@
 }
 
 #bullseye div {
-  background-image: url(../images/bullseye.png);
+  background-image: url(/images/bullseye.webp), url(/images/bullseye.jp2), url(/images/bullseye.jxr), url(/images/bullseye.png);
 }
 
 #degaetano-carr div {
-  background-image: url(../images/degaetanocarr.png);
+  background-image: url(/images/degaetanocarr.webp), url(/images/degaetanocarr.jp2), url(/images/degaetanocarr.jxr), url(/images/degaetanocarr.png);
 }
 
 #asterisk div {
-  background-image: url(../images/asterisk.png);
+  background-image: url(/images/asterisk.webp), url(/images/asterisk.jp2), url(/images/asterisk.jxr), url(/images/asterisk.png);
 }
 
 #konstru div {
-  background-image: url(../images/konstru.png);
+  background-image: url(/images/konstru.webp), url(/images/konstru.jp2), url(/images/konstru.jxr), url(/images/konstru.png);
 }
 
 #team-lyders div {
-  background-image: url(../images/teamlyders.png);
+  background-image: url(/images/teamlyders.webp), url(/images/teamlyders.jp2), url(/images/teamlyders.jxr), url(/images/teamlyders.png);
 }
 
 .portfolio-img-lg {

@@ -9,12 +9,12 @@
 		<meta name="description" content="">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/portfolio/style.css">
 
 
     <title>Will Carr: Bullseye Redevelopment</title>
-    <link href="../../images/favicon.png" rel="icon" type="image/jpeg" />
+    <link href="/images/favicon.png" rel="icon" type="image/jpeg" />
   </head>
   <body>
 
@@ -29,7 +29,13 @@
         <div id="sidebar" class="col-12 col-md-3 d-none d-md-flex flex-column justify-content-between">
 
           <div>
-            <img id="headshot" class="d-block rounded-circle w-75 mx-auto mt-4" src="../../images/headshot.png" alt="Headshot" />
+            <picture>
+              <source type="image/webp" srcset="/images/headshot.webp">
+              <source type="image/jp2" srcset="/images/headshot.jp2">
+              <source type="image/jxr" srcset="/images/headshot.jxr">
+              <img id="headshot" class="d-block rounded-circle w-75 mx-auto mt-4" src="/images/headshot.png" alt="Headshot" />
+            </picture>
+
             <h2 class="sidebar-text text-center mt-4">Will Carr</h2>
             <h4 class="sidebar-text text-center">Full-Stack Developer</h4>
 
@@ -113,7 +119,12 @@
             <h2 id="bullseye-link" class="display-6">bullseyeredevelopment.com</h2>
           </a>
 
-          <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="../../images/bullseye.png" alt="Bullseye Redevelopment Website" />
+          <picture>
+            <source type="image/webp" srcset="/images/bullseye.webp">
+            <source type="image/jp2" srcset="/images/bullseye.jp2">
+            <source type="image/jxr" srcset="/images/bullseye.jxr">
+            <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/bullseye.png" alt="Bullseye Redevelopment Website" />
+          </picture>
 
           <p>Bullseye Property Redevelopment is a professional, full service real estate solutions firm that buys and sells properties throughout Eastern Michigan.</p>
           <p>Over the summer of 2018, I worked to develop the web systems for the company, allowing them to solely focus on buying and selling homes. I continue to maintain the website to this day, accommodating requests from the company.</p>
@@ -146,7 +157,7 @@
 
 
 
-    <script src="http://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/index.js"></script>

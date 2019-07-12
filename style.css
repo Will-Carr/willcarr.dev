@@ -22,7 +22,7 @@
     width: 100%;
     height: 100%;
     opacity: 0.1;
-    background-image: url(/images/skyline.png);
+    background-image: url(/images/skyline.webp), url(/images/skyline.jp2), url(/images/skyline.jxr), url(/images/skyline.png);
     background-repeat: no-repeat;
     background-position: center;
     -ms-background-size: cover;
@@ -43,8 +43,7 @@ img {
   text-decoration: none;
 }
 
-#links a,
-img {
+#links a {
   transition: .5s;
 }
 
@@ -94,7 +93,7 @@ svg {
   right: -5px;
   margin-top: 7px;
   transform: rotate(90deg);
-  transition: .5s;
+  transition: top .5s;
 }
 
 #cur-page-carat.home-page {
