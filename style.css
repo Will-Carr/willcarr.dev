@@ -100,6 +100,12 @@ svg {
   border-top: 10px solid #E2E3E4;
 }
 
+nav {
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+}
+
 .navbar-toggler {
   border: none;
 }
