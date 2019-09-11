@@ -91,7 +91,7 @@ svg {
   border-right: 10px solid transparent;
   border-top: 10px solid #f8f9fa;
   position: absolute;
-  right: -5px;
+  right: -6px;
   margin-top: 7px;
   transform: rotate(90deg);
   transition: top .5s;
