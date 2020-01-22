@@ -5,6 +5,10 @@
   height: 100vh;
 }
 
+#sidebar a {
+    text-decoration: none !important;
+}
+
 #sidebar-background {
   left: 0;
 }

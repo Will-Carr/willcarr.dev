@@ -42,6 +42,10 @@
   background-image: url(/images/degaetanocarr.webp), url(/images/degaetanocarr.jp2), url(/images/degaetanocarr.jxr), url(/images/degaetanocarr.png);
 }
 
+#will-carr-dev div {
+  background-image: url(/images/willcarrdev.webp), url(/images/willcarrdev.jp2), url(/images/willcarrdev.jxr), url(/images/willcarrdev.png);
+}
+
 #asterisk div {
   background-image: url(/images/asterisk.webp), url(/images/asterisk.jp2), url(/images/asterisk.jxr), url(/images/asterisk.png);
 }
