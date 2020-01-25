@@ -1,3 +1,13 @@
+<?
+session_start();
+$pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
+if (isset($_SESSION["recursion"]) && !$pageWasRefreshed){
+    $_SESSION["recursion"]++;
+} else {
+    $_SESSION["recursion"] = 1;
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -25,6 +35,12 @@
 
             <!-- MAIN CONTENT -->
             <div id="main" class="col-12 col-md-9">
+
+                <?php if ($_SESSION["recursion"] > 1):
+                    for ($i = 0; $i < $_SESSION["recursion"] - 1; $i++): ?>
+                        <p>#<?= $i; ?>: recursion() called at [/portfolio/will-carr-dev/index.php:40]</p>
+                    <?php endfor;
+                endif; ?>
 
                 <h1 id="will-carr-title" class="display-4">WillCarr.dev</h1>
 
@@ -88,7 +104,7 @@
                     <li>Simple, yet sleek, animations</li>
                     <li>A portfolio to display my work</li>
                     <li>Contact links and a page to facilitate communication</li>
-                    <li><a class="text-muted" href=".">Recursion</a></li>
+                    <li><a class="btn btn-clear px-2 py-0" href=".">Recursion</a></li>
                 </ul>
 
                 <div class="technologies">
