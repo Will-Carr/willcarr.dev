@@ -1,2 +1,4 @@
-
-ErrorDocument 404 /404.html
+DirectoryIndex index.php index.html index.js
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+Options -Indexes
