@@ -37,28 +37,34 @@ session_write_close();
                     <div class="projects d-flex flex-wrap">
 
                         <div class="project" id="bullseye">
-                            <a href="/portfolio/bullseye-redevelopment/" class="text-muted">
-                                <h4>Bullseye Redevelopment</h4>
-                            </a>
-                            <a href="/portfolio/bullseye-redevelopment/">
+                            <div class="mb-2">
+                                <a href="/portfolio/bullseye-redevelopment/" class="text-muted h4">
+                                    Bullseye Redevelopment
+                                </a>
+                            </div>
+                            <a href="/portfolio/bullseye-redevelopment/" tabindex="-1">
                                 <div title="Bullseye Redevelopment" class="project-image rounded-lg border border-info"></div>
                             </a>
                         </div>
 
                         <div class="project" id="degaetano-carr">
-                            <a href="/portfolio/degaetano-carr/" class="text-muted">
-                                <h4>DeGaetano & Carr</h4>
-                            </a>
-                            <a href="/portfolio/degaetano-carr/">
+                            <div class="mb-2">
+                                <a href="/portfolio/degaetano-carr/" class="text-muted h4">
+                                    DeGaetano & Carr
+                                </a>
+                            </div>
+                            <a href="/portfolio/degaetano-carr/" tabindex="-1">
                                 <div title="DeGaetano & Carr" class="project-image rounded-lg border border-info"></div>
                             </a>
                         </div>
 
                         <div class="project" id="will-carr-dev">
-                            <a href="/portfolio/will-carr-dev/" class="text-muted">
-                                <h4>WillCarr.dev</h4>
-                            </a>
-                            <a href="/portfolio/will-carr-dev/">
+                            <div class="mb-2">
+                                <a href="/portfolio/will-carr-dev/" class="text-muted h4">
+                                    WillCarr.dev
+                                </a>
+                            </div>
+                            <a href="/portfolio/will-carr-dev/" tabindex="-1">
                                 <div title="WillCarr.dev" class="project-image rounded-lg border border-info"></div>
                             </a>
                         </div>
@@ -71,28 +77,34 @@ session_write_close();
                     <div class="projects d-flex flex-wrap">
 
                         <div class="project" id="team-lyders">
-                            <a href="/portfolio/team-lyders/" class="text-muted">
-                                <h4>Team Lyders</h4>
-                            </a>
-                            <a href="/portfolio/team-lyders/">
+                            <div class="mb-2">
+                                <a href="/portfolio/team-lyders/" class="text-muted h4">
+                                    Team Lyders
+                                </a>
+                            </div>
+                            <a href="/portfolio/team-lyders/" tabindex="-1">
                                 <div title="Team Lyders" class="project-image rounded-lg border border-info"></div>
                             </a>
                         </div>
 
                         <div class="project" id="asterisk">
-                            <a href="/portfolio/asterisk/" class="text-muted">
-                                <h4>Asterisk</h4>
-                            </a>
-                            <a href="/portfolio/asterisk/">
+                            <div class="mb-2">
+                                <a href="/portfolio/asterisk/" class="text-muted h4">
+                                    Asterisk
+                                </a>
+                            </div>
+                            <a href="/portfolio/asterisk/" tabindex="-1">
                                 <div title="Asterisk" class="project-image rounded-lg border border-info"></div>
                             </a>
                         </div>
 
                         <div class="project" id="konstru">
-                            <a href="/portfolio/konstru/" class="text-muted">
-                                <h4>Konstru</h4>
-                            </a>
-                            <a href="/portfolio/konstru/">
+                            <div class="mb-2">
+                                <a href="/portfolio/konstru/" class="text-muted h4">
+                                    Konstru
+                                </a>
+                            </div>
+                            <a href="/portfolio/konstru/" tabindex="-1">
                                 <div title="Konstru" class="project-image rounded-lg border border-info"></div>
                             </a>
                         </div>
@@ -103,9 +115,6 @@ session_write_close();
 
         </div>
     </div>
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

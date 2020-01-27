@@ -45,7 +45,7 @@ if (isset($_SESSION["recursion"]) && !$pageWasRefreshed){
                 <h1 id="will-carr-title" class="display-4">WillCarr.dev</h1>
 
                 <a href="https://willcarr.dev" class="text-muted min-link">
-                    <h2 id="will-carr-dev-link" class="display-6">WillCarr.dev</h2>
+                    <h2 id="will-carr-dev-link" class="display-6">willcarr.dev</h2>
                 </a>
 
                 <picture>

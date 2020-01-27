@@ -34,27 +34,27 @@
   box-shadow: 0 1rem 3rem rgba(0,0,0,.375);
 }
 
-#bullseye div {
+#bullseye .project-image {
   background-image: url(/images/bullseye.webp), url(/images/bullseye.jp2), url(/images/bullseye.jxr), url(/images/bullseye.png);
 }
 
-#degaetano-carr div {
+#degaetano-carr .project-image {
   background-image: url(/images/degaetanocarr.webp), url(/images/degaetanocarr.jp2), url(/images/degaetanocarr.jxr), url(/images/degaetanocarr.png);
 }
 
-#will-carr-dev div {
+#will-carr-dev .project-image {
   background-image: url(/images/willcarrdev.webp), url(/images/willcarrdev.jp2), url(/images/willcarrdev.jxr), url(/images/willcarrdev.png);
 }
 
-#asterisk div {
+#asterisk .project-image {
   background-image: url(/images/asterisk.webp), url(/images/asterisk.jp2), url(/images/asterisk.jxr), url(/images/asterisk.png);
 }
 
-#konstru div {
+#konstru .project-image {
   background-image: url(/images/konstru.webp), url(/images/konstru.jp2), url(/images/konstru.jxr), url(/images/konstru.png);
 }
 
-#team-lyders div {
+#team-lyders .project-image {
   background-image: url(/images/teamlyders.webp), url(/images/teamlyders.jp2), url(/images/teamlyders.jxr), url(/images/teamlyders.png);
 }
 

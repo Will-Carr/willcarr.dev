@@ -154,6 +154,13 @@ nav {
   margin-left: .25em;
 }
 
+.btn {
+    transition: color .25s ease-in-out,
+                background-color .25s ease-in-out,
+                border-color .25s ease-in-out,
+                box-shadow .25s ease-in-out;
+}
+
 .btn-clear {
   border: 1px solid #212529;
 }
@@ -191,4 +198,29 @@ nav {
   #willcarr-dev {
     font-size: 6rem;
   }
+}
+
+a.text-muted {
+    position: relative;
+}
+
+a.text-muted:hover,
+a.text-muted:focus {
+    text-decoration: none;
+}
+
+a.text-muted:hover::after,
+a.text-muted:focus::after  {
+    right: 0;
+}
+
+a.text-muted::after {
+    border-radius: 1em;
+    border-top: .1em solid #6c757d;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    transition: right .4s cubic-bezier(.04, .47, .38, .97);
 }
