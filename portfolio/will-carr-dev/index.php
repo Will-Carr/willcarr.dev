@@ -22,7 +22,6 @@ if (isset($_SESSION["recursion"]) && !$pageWasRefreshed){
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/portfolio/style.css">
 
-
     <title>Will Carr: WillCarr.dev</title>
     <link href="/images/favicon.png" rel="icon" type="image/jpeg" />
 </head>
