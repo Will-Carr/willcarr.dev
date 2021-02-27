@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,24 +11,18 @@
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/portfolio/style.css">
 
-
   <title>Will Carr: Bullseye Redevelopment</title>
   <link href="/images/favicon.png" rel="icon" type="image/jpeg" />
 </head>
-
 <body>
-
   <div class="container-fluid">
     <div class="row">
-
       <?php $active_page = "portfolio"; include "{$_SERVER['DOCUMENT_ROOT']}/includes/sidebar.php"; ?>
 
-      <!-- MAIN CONTENT -->
       <div id="main" class="col-12 col-md-9">
-
         <h1 id="bullseye-title" class="display-4">Bullseye Redevelopment</h1>
 
-        <a href="https://bullseyeredevelopment.com" class="text-muted min-link">
+        <a href="https://bullseyeredevelopment.com" target="_blank" class="text-muted min-link">
           <h2 id="bullseye-link" class="display-6">bullseyeredevelopment.com</h2>
         </a>
 
@@ -52,7 +45,6 @@
           <li>Back-end analytics for the company to understand which homes are interesting for prospective buyers</li>
         </ul>
 
-
         <div class="technologies">
           <h4>Technologies Used:</h4>
           <span class="badge badge-pill badge-info">HTML</span>
@@ -73,9 +65,7 @@
             <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
           </a>
         </div>
-
       </div>
-
     </div>
   </div>
 
@@ -84,5 +74,4 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="/scripts/index.js"></script>
 </body>
-
 </html>
