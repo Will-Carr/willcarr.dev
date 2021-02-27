@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#17a2b8" />
-  <meta name="keywords" content="willcarr.dev, will carr, william carr, carr, web, website, software, developer, engineer, full-stack, full stack, frontend, front-end, front end, backend, back-end, back end, portfolio, github, linkedin">
-  <meta name="description" content="">
+  <meta name="keywords" content="willcarr.dev, will carr, william carr, carr, web, website, software, developer, engineer, full-stack, full stack, frontend, front-end, front end, backend, back-end, back end, portfolio, github, linkedin, team lyders, teamlyders, perfect tacos, perfecttacos">
+  <meta name="description" content="Will Carr contributed to Team Lyders' site in 2019 and 2020.">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/style.css">
@@ -40,9 +40,8 @@
         </picture>
 
         <p>Team Lyders is the brand of the largest privately owned franchisee of Yum Brands. They currently own approximately 200 Taco Bell and Arby’s restaurants throughout the Midwest and Canada.</p>
-        <p>Since the spring of 2019, I have worked to redevelop the web systems for the company. With the ease of use of the new system, the stores can focus on selling food and pleasing customers, and the corporate office can focus on
-          expansion and profit.</p>
-        <p>In summary, what I have contributed to developing and maintaining is:</p>
+        <p>Between the springs of 2019 and 2020, I worked to redevelop the web systems for the company. With the ease of use of the new system, the stores can focus on selling food and pleasing customers, and the corporate office can focus on expansion and profit.</p>
+        <p>In summary, what I contributed to developing and maintaining was:</p>
         <ul>
           <li>A responsive front-end</li>
           <li>A streamlined user experience</li>
@@ -52,8 +51,7 @@
           <li>Introduction of version management solutions</li>
           <li>Generated reports about the stores, employees, applicants, and financials for the corporate office and field leaders to utilize</li>
           <li>Systems that stores use to create tickets for maintenance issues</li>
-          <li>Forms and approval systems for HR and Payroll to complete about individual employees, including promotions, vacation/sick leave, wage changes, store transfers, mileage reimbursements, terminations, payroll deductions, and
-            direct deposits</li>
+          <li>Forms and approval systems for HR and Payroll to complete about individual employees, including promotions, vacation/sick leave, wage changes, store transfers, mileage reimbursements, terminations, payroll deductions, and direct deposits</li>
           <li>Methods to analyze store security to minimize losses</li>
           <li>Solutions to ease the process of paying employees and completing taxes</li>
           <li>Means of evaluating employees and rewarding them when applicable</li>
