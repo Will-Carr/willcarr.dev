@@ -1,9 +1,3 @@
-<?
-session_start();
-$_SESSION["recursion"] = 0;
-session_write_close();
-?>
-
 <!doctype html>
 <html lang="en">
 

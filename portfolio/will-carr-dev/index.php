@@ -1,13 +1,3 @@
-<?
-session_start();
-$pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
-if (isset($_SESSION["recursion"]) && !$pageWasRefreshed){
-    $_SESSION["recursion"]++;
-} else {
-    $_SESSION["recursion"] = 1;
-}
-?>
-
 <!doctype html>
 <html lang="en">
 
@@ -35,13 +25,6 @@ if (isset($_SESSION["recursion"]) && !$pageWasRefreshed){
 
             <!-- MAIN CONTENT -->
             <div id="main" class="col-12 col-md-9">
-
-                <?php if ($_SESSION["recursion"] > 1):
-                    for ($i = 0; $i < $_SESSION["recursion"] - 1; $i++): ?>
-                        <p>#<?= $i; ?>: recursion() called at [/portfolio/will-carr-dev/index.php:42]</p>
-                    <?php endfor;
-                endif; ?>
-
                 <h1 id="will-carr-title" class="display-4">WillCarr.dev</h1>
 
                 <a href="https://willcarr.dev" class="text-muted min-link">
@@ -49,16 +32,10 @@ if (isset($_SESSION["recursion"]) && !$pageWasRefreshed){
                 </a>
 
                 <picture>
-                    <?php if ($_SESSION["recursion"] < 3): ?>
-                        <source type="image/webp" srcset="/images/willcarrdev.webp">
-                        <source type="image/jp2" srcset="/images/willcarrdev.jp2">
-                        <source type="image/jxr" srcset="/images/willcarrdev.jxr">
-                        <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/willcarrdev.png" alt="WillCarr.dev" />
-                    <?php elseif ($_SESSION["recursion"] > 19): ?>
-                        <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/willcarrdev-recursion17.png" alt="WillCarr.dev" />
-                    <?php else: ?>
-                        <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/willcarrdev-recursion<?= $_SESSION["recursion"] - 2; ?>.png" alt="WillCarr.dev" />
-                    <?php endif; ?>
+                    <source type="image/webp" srcset="/images/willcarrdev.webp">
+                    <source type="image/jp2" srcset="/images/willcarrdev.jp2">
+                    <source type="image/jxr" srcset="/images/willcarrdev.jxr">
+                    <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/willcarrdev.png" alt="WillCarr.dev" />
                 </picture>
 
                 <p>WillCarr.dev is the personal website of Will Carr.</p>
