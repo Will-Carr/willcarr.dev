@@ -6,7 +6,7 @@
 }
 
 #sidebar a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 #sidebar-background {
@@ -18,22 +18,23 @@
 }
 
 #background {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    background-image: url(/images/skyline.webp), url(/images/skyline.jp2), url(/images/skyline.jxr), url(/images/skyline.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url(/images/skyline.webp), url(/images/skyline.jp2),
+    url(/images/skyline.jxr), url(/images/skyline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 #headshot {
@@ -48,7 +49,7 @@ img {
 }
 
 #links a {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 /* .icons i {
@@ -63,7 +64,7 @@ img {
 }
 
 .link {
-  padding: .5em 0;
+  padding: 0.5em 0;
 }
 
 svg {
@@ -73,7 +74,7 @@ svg {
 
 .icons svg {
   fill: #d1d1d1;
-  transition: fill .5s;
+  transition: fill 0.5s;
 }
 
 .icons svg:hover {
@@ -98,11 +99,11 @@ svg {
   right: -6px;
   margin-top: 7px;
   transform: rotate(90deg);
-  transition: top .5s;
+  transition: top 0.5s;
 }
 
 #cur-page-carat.home-page {
-  border-top: 10px solid #E2E3E4;
+  border-top: 10px solid #e2e3e4;
 }
 
 nav {
@@ -125,7 +126,7 @@ nav {
   padding: 4rem 2rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   #sidebar {
     position: relative;
     height: auto;
@@ -151,24 +152,23 @@ nav {
 
 .icon-title {
   display: inline;
-  margin-left: .25em;
+  margin-left: 0.25em;
 }
 
 .btn {
-    transition: color .25s ease-in-out,
-                background-color .25s ease-in-out,
-                border-color .25s ease-in-out,
-                box-shadow .25s ease-in-out;
+  transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out,
+    border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
 }
 
 .btn-clear {
   border: 1px solid #212529;
 }
 
-.btn-clear:hover, .btn-clear:active {
+.btn-clear:hover,
+.btn-clear:active {
   border: 1px solid #6c757d;
   cursor: pointer;
-  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.275);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.275);
   background-color: #f8f9fa;
 }
 
@@ -176,7 +176,7 @@ nav {
   font-weight: 350;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .btn-clear {
     flex-basis: 45%;
   }
@@ -201,26 +201,26 @@ nav {
 }
 
 a.text-muted {
-    position: relative;
+  position: relative;
 }
 
 a.text-muted:hover,
 a.text-muted:focus {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a.text-muted:hover::after,
-a.text-muted:focus::after  {
-    right: 0;
+a.text-muted:focus::after {
+  right: 0;
 }
 
 a.text-muted::after {
-    border-radius: 1em;
-    border-top: .1em solid #6c757d;
-    content: "";
-    position: absolute;
-    right: 100%;
-    bottom: 0;
-    left: 0;
-    transition: right .4s cubic-bezier(.04, .47, .38, .97);
+  border-radius: 1em;
+  border-top: 0.1em solid #6c757d;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  transition: right 0.4s cubic-bezier(0.04, 0.47, 0.38, 0.97);
 }

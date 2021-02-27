@@ -1,7 +1,3 @@
-.projects {
-
-}
-
 .project {
   width: 300px;
   max-width: 100%;
@@ -25,37 +21,44 @@
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.275);
-  transition: .5s;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.275);
+  transition: 0.5s;
 }
 
 .project-image:hover {
   background-size: 110% 110%;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.375);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.375);
 }
 
 #bullseye .project-image {
-  background-image: url(/images/bullseye.webp), url(/images/bullseye.jp2), url(/images/bullseye.jxr), url(/images/bullseye.png);
+  background-image: url(/images/bullseye.webp), url(/images/bullseye.jp2),
+    url(/images/bullseye.jxr), url(/images/bullseye.png);
 }
 
 #degaetano-carr .project-image {
-  background-image: url(/images/degaetanocarr.webp), url(/images/degaetanocarr.jp2), url(/images/degaetanocarr.jxr), url(/images/degaetanocarr.png);
+  background-image: url(/images/degaetanocarr.webp),
+    url(/images/degaetanocarr.jp2), url(/images/degaetanocarr.jxr),
+    url(/images/degaetanocarr.png);
 }
 
 #will-carr-dev .project-image {
-  background-image: url(/images/willcarrdev.webp), url(/images/willcarrdev.jp2), url(/images/willcarrdev.jxr), url(/images/willcarrdev.png);
+  background-image: url(/images/willcarrdev.webp), url(/images/willcarrdev.jp2),
+    url(/images/willcarrdev.jxr), url(/images/willcarrdev.png);
 }
 
 #asterisk .project-image {
-  background-image: url(/images/asterisk.webp), url(/images/asterisk.jp2), url(/images/asterisk.jxr), url(/images/asterisk.png);
+  background-image: url(/images/asterisk.webp), url(/images/asterisk.jp2),
+    url(/images/asterisk.jxr), url(/images/asterisk.png);
 }
 
 #konstru .project-image {
-  background-image: url(/images/konstru.webp), url(/images/konstru.jp2), url(/images/konstru.jxr), url(/images/konstru.png);
+  background-image: url(/images/konstru.webp), url(/images/konstru.jp2),
+    url(/images/konstru.jxr), url(/images/konstru.png);
 }
 
 #team-lyders .project-image {
-  background-image: url(/images/teamlyders.webp), url(/images/teamlyders.jp2), url(/images/teamlyders.jxr), url(/images/teamlyders.png);
+  background-image: url(/images/teamlyders.webp), url(/images/teamlyders.jp2),
+    url(/images/teamlyders.jxr), url(/images/teamlyders.png);
 }
 
 .portfolio-img-lg {
@@ -65,9 +68,9 @@
 }
 
 @media only screen and (min-width: 949px) {
-    .carousel {
-        max-width: 50vw;
-    }
+  .carousel {
+    max-width: 50vw;
+  }
 }
 
 #bullseye-title {
@@ -102,7 +105,7 @@
 }
 
 .arrow-text {
-  max-width: calc(100% - 16px - .25em);
+  max-width: calc(100% - 16px - 0.25em);
   margin: auto 0;
 }
 
@@ -111,7 +114,9 @@
     font-size: 3.5rem;
   }
 
-  #bullseye-link, #asterisk-link, #degaetano-carr-link {
+  #bullseye-link,
+  #asterisk-link,
+  #degaetano-carr-link {
     font-size: 2rem;
   }
 
@@ -120,7 +125,7 @@
   }
 
   /* .project-image {
-    height: 150px;
-    width: 300px;
+  height: 150px;
+  width: 300px;
   } */
 }
