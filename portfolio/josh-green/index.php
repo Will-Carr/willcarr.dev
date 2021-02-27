@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#17a2b8" />
-  <meta name="keywords" content="willcarr.dev, will carr, william carr, carr, web, website, software, developer, engineer, full-stack, full stack, frontend, front-end, front end, backend, back-end, back end, portfolio, github, linkedin">
-  <meta name="description" content="Will Carr developed the majority of this site over the summer of 2019.">
+  <meta name="keywords" content="willcarr.dev, will carr, william carr, carr, web, website, software, developer, engineer, full-stack, full stack, frontend, front-end, front end, backend, back-end, back end, portfolio, github, linkedin, josh green, jgreen">
+  <meta name="description" content="Will Carr developed Josh Green's portfolio during the winter of 2021, and continues to maintain it.">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/portfolio/style.css">
 
-  <title>Will Carr: This Site</title>
+  <title>Will Carr: Josh Green's Portfolio</title>
   <link href="/images/favicon.png" rel="icon" type="image/jpeg" />
 </head>
 <body>
@@ -20,31 +20,28 @@
       <?php $active_page = "portfolio"; include "{$_SERVER['DOCUMENT_ROOT']}/includes/sidebar.php"; ?>
 
       <div id="main" class="col-12 col-md-9">
-        <h1 id="will-carr-title" class="display-4">This Site</h1>
+        <h1 id="josh-green-title" class="display-4">Josh Green's Portfolio</h1>
 
-        <a href="https://willcarr.dev" class="text-muted min-link">
-          <h2 id="will-carr-dev-link" class="display-6">willcarr.dev</h2>
+        <a href="https://jgreen.me" target="_blank" class="text-muted min-link">
+          <h2 id="josh-green-link" class="display-6">jgreen.me</h2>
         </a>
 
         <picture>
-          <source type="image/webp" srcset="/images/willcarrdev.webp">
-          <source type="image/jp2" srcset="/images/willcarrdev.jp2">
-          <source type="image/jxr" srcset="/images/willcarrdev.jxr">
-          <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/willcarrdev.png" alt="This Site" />
+          <source type="image/webp" srcset="/images/joshgreen.webp">
+          <source type="image/jp2" srcset="/images/joshgreen.jp2">
+          <source type="image/jxr" srcset="/images/joshgreen.jxr">
+          <img class="img img-fluid rounded-lg border border-info portfolio-img-lg" src="/images/joshgreen.png" alt="Josh Green's Website" />
         </picture>
 
-        <p>willcarr.dev is the personal website of Will Carr.</p>
-        <p>Over the summer of 2019, I worked to develop a web presence for myself, allowing visitors to view my past experiences and find relevant contact information.</p>
+        <p>jgreen.me is the personal website of UX Designer Josh Green.</p>
+        <p>Over the winter of 2021, I worked to develop a portfolio for Josh Green. Josh designed the site and experience, while I implemented it. I continue to maintain the website.</p>
         <p>In summary, what I developed was:</p>
         <ul>
           <li>A responsive front-end</li>
-          <li>A streamlined user experience</li>
-          <li>Simple, yet sleek, animations</li>
+          <li>Animations to enhance the user experience</li>
+          <li>Distinct view modes that the user can toggle between</li>
           <li>Web accessible solutions for those with and without disabilities</li>
           <li>SEO optimization</li>
-          <li>A portfolio to display my work</li>
-          <li>Contact links and a page to facilitate communication</li>
-          <li><a class="btn btn-clear px-2 py-0" href=".">Recursion</a></li>
         </ul>
 
         <div class="technologies">
@@ -52,17 +49,15 @@
           <span class="badge badge-pill badge-info">HTML</span>
           <span class="badge badge-pill badge-info">CSS</span>
           <span class="badge badge-pill badge-info">Javascript</span>
-          <span class="badge badge-pill badge-info">jQuery</span>
-          <span class="badge badge-pill badge-info">PHP</span>
         </div>
 
         <div class="mt-4 d-flex justify-content-between flex-wrap">
-          <a href="/portfolio/josh-green/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
+          <a href="/portfolio/konstru/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
             <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/left-arrow.php"; ?>
-            <span class="ml-1 arrow-text">Josh Green's Portfolio</span>
+            <span class="ml-1 arrow-text">Konstru</span>
           </a>
-          <a href="/portfolio/bullseye-redevelopment/" class="btn btn-clear d-flex justify-content-between">
-            <span class="mr-1 arrow-text">Bullseye Redevelopment</span>
+          <a href="/portfolio/will-carr-dev/" class="btn btn-clear d-flex justify-content-between">
+            <span class="mr-1 arrow-text">This Site</span>
             <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
           </a>
         </div>

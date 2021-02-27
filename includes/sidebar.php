@@ -4,7 +4,6 @@
 
 <!-- LARGE SCREEN SIDEBAR -->
 <div id="sidebar" class="col-3 d-none d-md-flex flex-column justify-content-between">
-
   <div>
     <picture>
       <source type="image/webp" srcset="/images/headshot.webp">
@@ -50,9 +49,7 @@
         </svg>
     </a>
   </div>
-
 </div>
-
 
 <!-- SMALL SCREEN COLLAPSE NAVBAR -->
 <nav class="navbar navbar-dark bg-info col-12 d-md-none">

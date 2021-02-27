@@ -23,6 +23,28 @@
         <div id="solo">
           <h1 class="display-4">Solo Projects</h1>
           <div class="projects d-flex flex-wrap">
+            <div class="project" id="josh-green">
+              <div class="mb-2">
+                <a href="/portfolio/josh-green/" class="text-muted h4">
+                  Josh Green's Portfolio
+                </a>
+              </div>
+              <a href="/portfolio/josh-green/" tabindex="-1">
+                <div title="Josh Green's Portfolio" class="project-image rounded-lg border border-info"></div>
+              </a>
+            </div>
+
+            <div class="project" id="will-carr-dev">
+              <div class="mb-2">
+                <a href="/portfolio/will-carr-dev/" class="text-muted h4">
+                  This Site
+                </a>
+              </div>
+              <a href="/portfolio/will-carr-dev/" tabindex="-1">
+                <div title="This Site" class="project-image rounded-lg border border-info"></div>
+              </a>
+            </div>
+
             <div class="project" id="bullseye">
               <div class="mb-2">
                 <a href="/portfolio/bullseye-redevelopment/" class="text-muted h4">
@@ -42,17 +64,6 @@
               </div>
               <a href="/portfolio/degaetano-carr/" tabindex="-1">
                 <div title="DeGaetano & Carr" class="project-image rounded-lg border border-info"></div>
-              </a>
-            </div>
-
-            <div class="project" id="will-carr-dev">
-              <div class="mb-2">
-                <a href="/portfolio/will-carr-dev/" class="text-muted h4">
-                  This Site
-                </a>
-              </div>
-              <a href="/portfolio/will-carr-dev/" tabindex="-1">
-                <div title="WillCarr.dev" class="project-image rounded-lg border border-info"></div>
               </a>
             </div>
           </div>
