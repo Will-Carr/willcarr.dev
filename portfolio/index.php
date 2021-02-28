@@ -72,6 +72,17 @@
         <div id="contributions" class="mt-5">
           <h1 class="display-4">Contributions</h1>
           <div class="projects d-flex flex-wrap">
+            <div class="project" id="dominos">
+              <div class="mb-2">
+                <a href="/portfolio/dominos/" class="text-muted h4">
+                  Domino's
+                </a>
+              </div>
+              <a href="/portfolio/dominos/" tabindex="-1">
+                <div title="Domino's" class="project-image rounded-lg border border-info"></div>
+              </a>
+            </div>
+
             <div class="project" id="team-lyders">
               <div class="mb-2">
                 <a href="/portfolio/team-lyders/" class="text-muted h4">

@@ -62,15 +62,17 @@
           <span class="badge badge-pill badge-info">Google Cloud</span>
         </div>
 
-        <div class="mt-4 d-flex justify-content-between flex-wrap">
-          <a href="/portfolio/asterisk/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
-            <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/left-arrow.php"; ?>
-            <span class="ml-1 arrow-text">Asterisk</span>
-          </a>
-          <a href="/portfolio/josh-green/" class="btn btn-clear d-flex justify-content-between">
-            <span class="mr-1 arrow-text">Josh Green's Portfolio</span>
-            <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
-          </a>
+        <div id="project-links">
+          <div class="mt-4 d-flex justify-content-between flex-wrap">
+            <a href="/portfolio/asterisk/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
+              <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/left-arrow.php"; ?>
+              <span class="ml-1 arrow-text">Asterisk</span>
+            </a>
+            <a href="/portfolio/josh-green/" class="btn btn-clear d-flex justify-content-between">
+              <span class="mr-1 arrow-text">Josh Green's Portfolio</span>
+              <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
+            </a>
+          </div>
         </div>
       </div>
     </div>

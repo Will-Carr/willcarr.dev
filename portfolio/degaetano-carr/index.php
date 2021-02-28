@@ -52,15 +52,17 @@
           <span class="badge badge-pill badge-info">Leaflet</span>
         </div>
 
-        <div class="mt-4 d-flex justify-content-between flex-wrap">
-          <a href="/portfolio/bullseye-redevelopment/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
-            <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/left-arrow.php"; ?>
-            <span class="ml-1 arrow-text">Bullseye Redevelopment</span>
-          </a>
-          <a href="/portfolio/team-lyders/" class="btn btn-clear d-flex justify-content-between">
-            <span class="mr-1 arrow-text">Team Lyders</span>
-            <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
-          </a>
+        <div id="project-links">
+          <div class="mt-4 d-flex justify-content-between flex-wrap">
+            <a href="/portfolio/bullseye-redevelopment/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
+              <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/left-arrow.php"; ?>
+              <span class="ml-1 arrow-text">Bullseye Redevelopment</span>
+            </a>
+            <a href="/portfolio/dominos/" class="btn btn-clear d-flex justify-content-between">
+              <span class="mr-1 arrow-text">Domino's</span>
+              <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -1,3 +1,8 @@
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
 .project {
   width: 300px;
   max-width: 100%;
@@ -66,6 +71,11 @@
     url(/images/joshgreen.jxr), url(/images/joshgreen.png);
 }
 
+#dominos .project-image {
+  background-image: url(/images/dominos.webp), url(/images/dominos.jp2),
+    url(/images/dominos.jxr), url(/images/dominos.png);
+}
+
 .portfolio-img-lg {
   display: block;
   max-height: 300px;
@@ -101,6 +111,10 @@
 
 .display-4 {
   font-size: 15vw;
+}
+
+#project-links {
+  margin-top: auto;
 }
 
 .arrow {

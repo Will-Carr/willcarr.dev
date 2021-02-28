@@ -55,15 +55,17 @@
           <span class="badge badge-pill badge-info">Angular.js</span>
         </div>
 
-        <div class="mt-4 d-flex justify-content-between flex-wrap">
-          <a href="/portfolio/will-carr-dev/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
-            <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/left-arrow.php"; ?>
-            <span class="ml-1 arrow-text">This Site</span>
-          </a>
-          <a href="/portfolio/degaetano-carr/" class="btn btn-clear d-flex justify-content-between">
-            <span class="mr-1 arrow-text">DeGaetano & Carr</span>
-            <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
-          </a>
+        <div id="project-links">
+          <div class="mt-4 d-flex justify-content-between flex-wrap">
+            <a href="/portfolio/will-carr-dev/" class="btn btn-clear mr-md-2 d-flex justify-content-between">
+              <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/left-arrow.php"; ?>
+              <span class="ml-1 arrow-text">This Site</span>
+            </a>
+            <a href="/portfolio/degaetano-carr/" class="btn btn-clear d-flex justify-content-between">
+              <span class="mr-1 arrow-text">DeGaetano & Carr</span>
+              <?php include "{$_SERVER['DOCUMENT_ROOT']}/includes/right-arrow.php"; ?>
+            </a>
+          </div>
         </div>
       </div>
     </div>
