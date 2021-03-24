@@ -5,15 +5,21 @@
 <!-- LARGE SCREEN SIDEBAR -->
 <div id="sidebar" class="col-3 d-none d-md-flex flex-column justify-content-between">
   <div>
-    <picture>
-      <source type="image/webp" srcset="/images/headshot.webp">
-      <source type="image/jp2" srcset="/images/headshot.jp2">
-      <source type="image/jxr" srcset="/images/headshot.jxr">
-      <img id="headshot" class="d-block rounded-circle w-75 mx-auto mt-4" src="/images/headshot.png" alt="Headshot" />
-    </picture>
+    <div class="w-75 mt-4 mx-auto d-flex flex-row justify-content-center">
+      <a href="/">
+        <picture>
+          <source type="image/webp" srcset="/images/headshot.webp">
+          <source type="image/jp2" srcset="/images/headshot.jp2">
+          <source type="image/jxr" srcset="/images/headshot.jxr">
+          <img id="headshot" class="d-block rounded-circle" src="/images/headshot.png" alt="Photo of Will Carr" />
+        </picture>
+      </a>
+    </div>
 
-    <h2 class="sidebar-text text-center mt-4">Will Carr</h2>
-    <h4 class="sidebar-text text-center">Full-Stack Developer</h4>
+    <a href="/">
+      <h2 class="sidebar-text text-center mt-4">Will Carr</h2>
+      <h4 class="sidebar-text text-center">Full-Stack Developer</h4>
+    </a>
 
     <div id="links" class="mx-4 mt-4">
       <div id="cur-page-carat"></div>

@@ -7,6 +7,7 @@
 
 #sidebar a {
   text-decoration: none !important;
+  font-weight: 700;
 }
 
 #sidebar-background {
@@ -39,6 +40,7 @@
 
 #headshot {
   max-width: 200px;
+  max-width: min(200px, 100%);
 }
 
 #links a,
@@ -107,7 +109,7 @@ svg {
 }
 
 nav {
-  position: sticky !important;
+  position: fixed !important;
   top: 0;
   z-index: 10;
 }
@@ -118,6 +120,12 @@ nav {
 
 .nav-link {
   width: max-content;
+  font-weight: 700;
+}
+
+:not(.icons) > .nav-link,
+.icons > .nav-link:first-child {
+  margin-left: auto;
 }
 
 #main {
@@ -140,7 +148,7 @@ nav {
   #main {
     margin-left: 0;
     min-height: calc(100vh - 3.5em + 2px);
-    padding: 2rem 1rem;
+    padding: calc(1.5em + 1.5rem + 2rem) 1rem 2rem 1rem;
   }
 }
 

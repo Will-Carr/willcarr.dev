@@ -48,7 +48,7 @@
           <span class="badge badge-pill badge-info">HTML</span>
           <span class="badge badge-pill badge-info">CSS</span>
           <span class="badge badge-pill badge-info">PHP</span>
-          <span class="badge badge-pill badge-info">Javascript</span>
+          <span class="badge badge-pill badge-info">JavaScript</span>
           <span class="badge badge-pill badge-info">Leaflet</span>
         </div>
 

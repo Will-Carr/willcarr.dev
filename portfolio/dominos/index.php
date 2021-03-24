@@ -20,7 +20,7 @@
       <?php $active_page = "portfolio"; include "{$_SERVER['DOCUMENT_ROOT']}/includes/sidebar.php"; ?>
 
       <div id="main" class="col-12 col-md-9">
-        <h1 id="dominos-title" class="display-4">Domino's</h1>
+        <h1 id="dominos-title" class="display-4">Domino's Pizza</h1>
 
         <a href="https://dominos.com" target="_blank" class="text-muted min-link">
           <h2 id="dominos-link" class="display-6">dominos.com</h2>
@@ -34,7 +34,46 @@
         </picture>
 
         <p>Domino's is a multinational restaurant chain, specializing in pizza, pasta, and chicken in more than 17,000 locations worldwide.</p>
-        <p>Since the winter of 2020, I have contributed to both the customer and internal-facing front-end technologies of the company.</p>
+        <p>Between March of 2020 and 2021, I contributed to the front-end technologies of the company. Over that time, I worked with product owners, business associates, designers, architects, and other developers to deliver finished products.</p>
+        <p>In summary, what I contributed to developing and maintaining was:</p>
+        <ul>
+          <li>Responsive front-ends</li>
+          <li>Streamlined user experiences</li>
+          <li>Handling of Server-Sent Events to continually receive and display data</li>
+          <li>Usage of the Storage API (IndexedDB and local storage) to persist user data across multiple sessions</li>
+          <li>Updating CDNs to serve version-specific content</li>
+          <li>Level AAA WCAG compliant accessibility</li>
+          <li>Internationalization of content</li>
+          <li>Feature flag implementation through LaunchDarkly</li>
+          <li>Crash and bug reporting through Raygun</li>
+          <li>User monitoring through Raygun</li>
+          <li>Robust payment handling</li>
+          <li>Dev-server implementation to mock backend interactions</li>
+          <li>Contributing to the growth of the company's near-half billion dollars in yearly profit</li>
+        </ul>
+
+        <div class="technologies">
+          <h4>Technologies Used:</h4>
+          <span class="badge badge-pill badge-info">HTML</span>
+          <span class="badge badge-pill badge-info">CSS</span>
+          <span class="badge badge-pill badge-info">PostCSS</span>
+          <span class="badge badge-pill badge-info">JavaScript</span>
+          <span class="badge badge-pill badge-info">TypeScript</span>
+          <span class="badge badge-pill badge-info">React</span>
+          <span class="badge badge-pill badge-info">Grunt</span>
+          <span class="badge badge-pill badge-info">Gulp</span>
+          <span class="badge badge-pill badge-info">Node</span>
+          <span class="badge badge-pill badge-info">Express</span>
+          <span class="badge badge-pill badge-info">Git</span>
+          <span class="badge badge-pill badge-info">i18next</span>
+          <span class="badge badge-pill badge-info">SSEs</span>
+          <span class="badge badge-pill badge-info">Raygun</span>
+          <span class="badge badge-pill badge-info">LaunchDarkly</span>
+          <span class="badge badge-pill badge-info">Storage API</span>
+          <span class="badge badge-pill badge-info">Google Maps API</span>
+          <span class="badge badge-pill badge-info">Jest</span>
+          <span class="badge badge-pill badge-info">Backbone.js</span>
+        </div>
 
         <div id="project-links">
           <div class="mt-4 d-flex justify-content-between flex-wrap">

@@ -54,7 +54,7 @@
           <span class="badge badge-pill badge-info">Node</span>
           <span class="badge badge-pill badge-info">SQL</span>
           <span class="badge badge-pill badge-info">Mongo</span>
-          <span class="badge badge-pill badge-info">Javascript</span>
+          <span class="badge badge-pill badge-info">JavaScript</span>
           <span class="badge badge-pill badge-info">Typescript</span>
           <span class="badge badge-pill badge-info">Angular</span>
           <span class="badge badge-pill badge-info">Redis</span>

@@ -59,7 +59,7 @@
           <span class="badge badge-pill badge-info">PHP</span>
           <span class="badge badge-pill badge-info">MySQL</span>
           <span class="badge badge-pill badge-info">MSSQL</span>
-          <span class="badge badge-pill badge-info">Javascript</span>
+          <span class="badge badge-pill badge-info">JavaScript</span>
           <span class="badge badge-pill badge-info">jQuery</span>
           <span class="badge badge-pill badge-info">Leaflet</span>
           <span class="badge badge-pill badge-info">Angular.js</span>
